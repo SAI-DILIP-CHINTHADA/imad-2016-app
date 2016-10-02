@@ -1,6 +1,5 @@
 body {
     font-family: sans-serif;
-    
     margin-top: 60px;
 }
 
@@ -20,7 +19,8 @@ body {
     height: 200px;
 }
 
-.container{
+.container
+    {
     max-width: 800px;
     margin: 0 auto;
     color: #2d2c2c;
