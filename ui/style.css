@@ -18,13 +18,13 @@ body {
 .img-medium {
     height: 200px;
 }
+.container{
+max-width: 800px;
+margin: 0 auto;
+color: #373737;
+font-family: san-serif;
+padding-left: 20px;
+padding-right: 20px;
 
-.container
-    {
-    max-width: 800px;
-    margin: 0 auto;
-    color: #2d2c2c;
-    font-family: sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
+
 }
