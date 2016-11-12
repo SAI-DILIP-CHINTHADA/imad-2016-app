@@ -1,5 +1,6 @@
+
 function loadLoginForm () {
-    		var loginHtml = `
+    var loginHtml = `
         <h3>Login/Register to unlock awesome features</h3>
         <input type="text" id="username" placeholder="username" />
         <input type="password" id="password" />
@@ -79,7 +80,6 @@ function loadLoginForm () {
     };
 }
 
-
 function loadLoggedInUser (username) {
     var loginArea = document.getElementById('login_area');
     loginArea.innerHTML = `
@@ -87,8 +87,6 @@ function loadLoggedInUser (username) {
         <a href="/logout">Logout</a>
     `;
 }
-
-
 
 function loadLogin () {
     // Check if the user is already logged in
@@ -106,8 +104,6 @@ function loadLogin () {
     request.open('GET', '/check-login', true);
     request.send(null);
 }
-
-
 
 function loadArticles () {
         // Check if the user is already logged in
@@ -141,4 +137,3 @@ loadLogin();
 
 // Now this is something that we could have directly done on the server-side using templating too!
 loadArticles();
-
